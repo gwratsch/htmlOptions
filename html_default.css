@@ -1,0 +1,61 @@
+
+#homepage{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav, .bodysection, aside, footer{
+	background-color: whitesmoke;
+	margin-bottom:10px;
+}
+nav{
+	padding:10px;
+}
+nav a{
+	padding:5px;
+	/*border-right:1px solid black;*/
+}
+.bodysection{
+	float: left;
+}
+aside{
+	float:right;
+}
+aside{
+	width:20%;
+
+}
+.bodysection{
+	width:79%;
+	padding-bottom:20px;
+}
+.bodysection h2,.bodysection p {
+	padding-left:10px;
+}
+footer{
+	width:100%;
+	display:inline-block;
+}
+footer p{
+	float:right;
+	width:150px;
+	opacity:1;
+}
+footer section{
+	padding:10px;
+}
+footer section a{
+	display:table;
+	padding:3px;
+	margin-left:10px;
+}
+#displaylist{
+	display:none;
+}
+nav a:hover + #displaylist,#displaylist:hover{
+	display:table;
+}
+#homepage aside img{
+	width:100%;
+	height:auto;
+}

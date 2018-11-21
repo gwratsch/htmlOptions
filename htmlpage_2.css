@@ -1,0 +1,94 @@
+header h1{
+	width:100%;
+
+}
+#birdDisplay, #treeDisplay, #carDisplay, #mountanDisplay{
+	color: link;
+	text-decoration:underline;
+	margin-left:20px;
+}
+#headersvg{
+	width:100%;
+	height:auto;
+	border:1px solid black;
+	
+}
+#bodycanvas{
+	width:50%;
+	height:150px;
+}
+#headersvg circle{
+	stroke:green;
+	stroke-width:3;
+	fill:yellow;
+}
+#headersvg #leaves{
+	stroke:green;
+	stroke-width:1;
+	fill:green;
+}
+#headersvg rect{
+	width:80px;
+	height:15px;
+	fill:lightgrey;
+	stroke-width:3;
+	stroke:black;
+}
+#headersvg #engine{
+	width:80px;
+	height:15px;
+}
+#headersvg #cabin{
+	width:30px;
+	height:15px;
+}
+#headersvg #treeTrunk{
+	width:10px;
+	height:70px;
+	fill:brown;
+	stroke-width:1;
+	stroke:brown;
+}
+#headersvg ellipse{
+	fill:yellow;
+}
+#headersvg line{
+	stroke:black;
+	stroke-width:4;
+}
+#headersvg polygon{
+	fill:lime;
+	stroke: blue;
+	stroke-width:1;
+}
+#headersvg text{
+	fill:black;
+	transform:rotate(-8deg);
+	font-size:30px;
+}
+#headersvg polyline{
+	stroke:black;
+	stroke-width:2;
+	fill:none;
+}
+
+
+@media(min-width:750px){
+	header h1{
+		width:29%;
+		float:left;
+	}
+	#headersvg{
+		width:70%;
+		max-width:600px;
+		height:auto;
+		float:right;
+		border:1px solid black;
+		
+	}
+}
+@media(min-width:944px){
+	header h1, nav{
+		width:33%;
+	}
+}

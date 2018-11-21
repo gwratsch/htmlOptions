@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<title>Graphic options</title>
+<link rel="stylesheet" href="html_default.css">
+<link rel="stylesheet" href="htmlpage_2.css">
+<script src="htmlpage_2.js"></script>
+</head>
+<body>
+<header>
+<h1> Graphic options</h1>
+<svg  id="headersvg">
+	<rect x="50" y="80" id="treeTrunk" style="display:block"></rect>
+	<circle cx="50" cy="60" r="40" id="leaves" style="display:block"></circle>
+	<circle cx="40" cy="140" r="10" class="carpart" style="display:block"></circle>
+	<circle cx="180" cy="140" r="10" class="carpart"  style="display:block"></circle>
+	<circle cx="220" cy="140" r="10" class="carpart"  style="display:block"></circle>
+	<circle cx="270" cy="140" r="10" class="carpart"  style="display:block"></circle>
+	<rect x="205" y="114" id="engin" class="carpart" style="display:block"></rect>
+	<rect x="245" y="98" id="cabin" class="carpart" style="display:block"></rect>
+	<ellipse cx="450" cy="25" rx="42" ry="33" style="display:block"></ellipse>
+	<ellipse cx="330" cy="120" rx="42" ry="5" class="carpart"  style="display:block"></ellipse>
+	<text x="10" y="130" class="carpart" style="display:block">SVG Graphic Options</text>
+	<line x1="20" y1="130" x2="280" y2="130" class="carpart" style="display:block"></line>
+	<polygon points="490,60 525,90 570,40 600,180 510,190 423,170" style="display:block"></polygon>
+	<polyline points="300,32 310,42 320,22" style="display:block"></polyline>
+	<polyline points="310,35 320,45 330,25" style="display:block"></polyline>
+	<polyline points="280,50 290,60 300,40" style="display:block"></polyline>
+</svg>
+</header>
+<nav>
+<a href="index.html">Home</a>
+</nav>
+<section>
+	<h2>Canvas demo</h2>
+	<canvas id="bodycanvas"></canvas>
+	<h2>Events demo with hide/diaplay image subjects</h2>
+	<p id="birdDisplay" onclick="bird();">Hide the birds.</p>
+	<p id="treeDisplay" onclick="tree();">Hide the tree.</p>
+	<p id="carDisplay" onclick="car();">Hide the car.</p>
+	<p id="mountanDisplay" onclick="mountan();">Hide the mountan.</p>
+	<br />
+	<p>When changing the style with JS, remember that JS is looking in het HTML tag what CSS is used.<br />
+	I havend found how to find the css code when it is added by a css file.
+	</p>
+
+</section>
+<footer>
+<p>&copy Gerd Ratsch</p>
+<section>
+	<h3>Source</h3>
+	<a href="www.w3schools.com" target="_blank">W3schools.com</a>
+</section>
+</footer>
+
+	
+</body>
+</html>
